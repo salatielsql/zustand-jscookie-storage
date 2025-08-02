@@ -1,6 +1,6 @@
 {
   "name": "zustand-jscookie-storage",
-  "version": "1.0.0-alpha.2",
+  "version": "1.0.0-alpha.3",
   "description": "🐻 + 🍪 Zustand plugin to persist state to cookies the battle-tested js-cookie library. Perfect to share state between Server-Side and Client-Side.",
   "author": "salatielsql",
   "type": "module",

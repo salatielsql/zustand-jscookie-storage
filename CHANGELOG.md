@@ -1,5 +1,11 @@
 # Changelog
 
+## 1.0.0-alpha.3
+
+*No significant changes*
+
+##### &nbsp;&nbsp;&nbsp;&nbsp;[View changes on GitHub](https://github.com/salatielsql/zustand-jscookie-storage/compare/v1.0.0-alpha.2...1.0.0-alpha.3)
+
 ## 1.0.0-alpha.2
 
 ### &nbsp;&nbsp;&nbsp;Bug Fixes
