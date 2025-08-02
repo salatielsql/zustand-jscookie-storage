@@ -1,5 +1,13 @@
 # Changelog
 
+## 1.0.0-alpha.4
+
+### &nbsp;&nbsp;&nbsp;Bug Fixes
+
+- Change target to es2018 and module to esnext &nbsp;-&nbsp; by **Salatiel Queiroz** [<samp>(74bf9)</samp>](https://github.com/salatielsql/zustand-jscookie-storage/commit/74bf99a)
+
+##### &nbsp;&nbsp;&nbsp;&nbsp;[View changes on GitHub](https://github.com/salatielsql/zustand-jscookie-storage/compare/v1.0.0-alpha.3...1.0.0-alpha.4)
+
 ## 1.0.0-alpha.3
 
 *No significant changes*
