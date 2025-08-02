@@ -1,11 +1,10 @@
 {
   "compilerOptions": {
-    "target": "es2019", // Or a higher ES version depending on your target environment
-    "module": "commonjs", // Or "esnext" for ES Modules
-    "lib": ["es2019"], // Include necessary DOM or other environment libraries if needed
+    "target": "es2019",
+    "module": "esnext",
+    "lib": ["es2019", "dom"],
     "declaration": true, // Generate .d.ts declaration files
     "outDir": "./dist", // Output directory for compiled JavaScript and declaration files
-    "rootDir": "./src", // Root directory of your TypeScript source files
     "strict": true, // Enable all strict type-checking options
     "esModuleInterop": true, // Enables better interoperability with CommonJS modules
     "skipLibCheck": true, // Skips type checking of declaration files
