@@ -36,6 +36,7 @@
   },
   "linter": {
     "enabled": true,
+    "includes": ["!dist", "!node_modules", "!coverage"],
     "rules": {
       "recommended": true
     }
