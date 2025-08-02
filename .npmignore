@@ -1,0 +1,7 @@
+dist
+coverage
+__mocks__
+__test__
+vitest.*
+.vscode
+.husky
