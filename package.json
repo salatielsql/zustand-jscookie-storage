@@ -11,9 +11,9 @@
     "test:coverage": "vitest run --coverage",
     "prepare": "husky",
     "build": "tsc --project tsconfig.lib.json",
-    "release": "pnpm release-it",
-    "release:ci": "pnpm release-it --ci",
-    "release:alpha": "pnpm release-it --preRelease=alpha"
+    "release": "pnpm build && pnpm release-it",
+    "release:ci": "pnpm build && pnpm release-it --ci",
+    "release:alpha": "pnpm build && pnpm release-it --preRelease=alpha"
   },
   "keywords": [
     "zustand",
