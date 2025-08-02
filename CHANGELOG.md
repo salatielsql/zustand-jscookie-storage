@@ -1,5 +1,13 @@
 # Changelog
 
+## 1.0.0-alpha.2
+
+### &nbsp;&nbsp;&nbsp;Bug Fixes
+
+- Lib module config &nbsp;-&nbsp; by **Salatiel Queiroz** [<samp>(58ce4)</samp>](https://github.com/salatielsql/zustand-jscookie-storage/commit/58ce491)
+
+##### &nbsp;&nbsp;&nbsp;&nbsp;[View changes on GitHub](https://github.com/salatielsql/zustand-jscookie-storage/compare/v1.0.0-alpha.1...1.0.0-alpha.2)
+
 ## 1.0.0-alpha.1
 
 *No significant changes*
