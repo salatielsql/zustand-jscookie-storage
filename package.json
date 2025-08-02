@@ -1,0 +1,58 @@
+{
+  "name": "zustand-jscookie-storage",
+  "version": "0.0.1",
+  "description": "🐻 + 🍪 Zustand plugin to persist state to cookies the battle-tested js-cookie library. Perfect to share state between Server-Side and Client-Side.",
+  "author": "salatielsql",
+  "type": "module",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "scripts": {
+    "test": "vitest",
+    "test:coverage": "vitest run --coverage",
+    "prepare": "husky",
+    "build": "tsc --project tsconfig.lib.json",
+    "release": "pnpm release-it",
+    "release:ci": "pnpm release-it --ci",
+    "release:alpha": "pnpm release-it --preRelease=alpha"
+  },
+  "keywords": [
+    "zustand",
+    "js-cookie",
+    "cookies",
+    "storage",
+    "persist",
+    "state"
+  ],
+  "dependencies": {
+    "js-cookie": "^3.0.5"
+  },
+  "devDependencies": {
+    "@biomejs/biome": "2.1.3",
+    "@testing-library/dom": "^10.4.1",
+    "@testing-library/jest-dom": "6.6.4",
+    "@testing-library/react": "^16.3.0",
+    "@testing-library/user-event": "14.6.1",
+    "@types/js-cookie": "3.0.6",
+    "@types/react": "^19.1.9",
+    "@types/react-dom": "^19.1.7",
+    "@vitest/coverage-istanbul": "3.2.4",
+    "husky": "9.1.7",
+    "jsdom": "26.1.0",
+    "react": "19.1.1",
+    "release-it": "19.0.4",
+    "release-it-pnpm": "4.6.6",
+    "typescript": "5.9.2",
+    "vitest": "^3.2.4",
+    "zustand": "5.0.7"
+  },
+  "license": "ISC",
+  "packageManager": "pnpm@10.14.0",
+  "bugs": {
+    "url": "https://github.com/salatielsql/zustand-jscookie-storage/issues"
+  },
+  "homepage": "https://github.com/salatielsql/zustand-jscookie-storage#readme",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/salatielsql/zustand-jscookie-storage.git"
+  }
+}
