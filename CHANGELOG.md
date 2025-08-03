@@ -1,5 +1,13 @@
 # Changelog
 
+## 1.0.0
+
+### &nbsp;&nbsp;&nbsp;Bug Fixes
+
+- Accept cookie attributes in setItem method &nbsp;-&nbsp; by **Salatiel Queiroz** [<samp>(ee3a4)</samp>](https://github.com/salatielsql/zustand-jscookie-storage/commit/ee3a4a5)
+
+##### &nbsp;&nbsp;&nbsp;&nbsp;[View changes on GitHub](https://github.com/salatielsql/zustand-jscookie-storage/compare/v1.0.0-alpha.4...1.0.0)
+
 ## 1.0.0-alpha.4
 
 ### &nbsp;&nbsp;&nbsp;Bug Fixes
