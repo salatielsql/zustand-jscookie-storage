@@ -45,7 +45,7 @@
     "vitest": "^3.2.4",
     "zustand": "5.0.7"
   },
-  "license": "ISC",
+  "license": "MIT",
   "packageManager": "pnpm@10.14.0",
   "bugs": {
     "url": "https://github.com/salatielsql/zustand-jscookie-storage/issues"
