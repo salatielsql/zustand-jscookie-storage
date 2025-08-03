@@ -7,7 +7,7 @@ import Cookies from 'js-cookie'
  */
 interface StateStorage {
   getItem: (name: string) => string | null | Promise<string | null>
-  setItem: (name: string, value: string) => unknown | Promise<unknown>
+  setItem: (name: string, value: string, attributes: CookieAttributes) => unknown | Promise<unknown>
   removeItem: (name: string) => unknown | Promise<unknown>
 }
 
@@ -19,8 +19,8 @@ const cookie: StateStorage = {
   removeItem: async (name: string) => {
     Cookies.remove(name)
   },
-  setItem: async (name: string, value: string) => {
-    Cookies.set(name, value)
+  setItem: async (name: string, value: string, attributes: CookieAttributes) => {
+    Cookies.set(name, value, attributes)
   }
 }
 
@@ -58,7 +58,7 @@ export class CookieStorage implements StateStorage {
   }
 
   async setItem(name: string, value: string) {
-    return cookie.setItem(name, value)
+    return cookie.setItem(name, value, this.attributes)
   }
 
   async removeItem(name: string) {

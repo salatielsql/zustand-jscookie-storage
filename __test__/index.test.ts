@@ -2,6 +2,14 @@ import Cookies from 'js-cookie'
 import { vi } from 'vitest'
 import { CookieStorage } from '../src/index'
 
+const defaultAttributes = {
+  expires: 30,
+  httpOnly: false,
+  path: '/',
+  sameSite: 'strict',
+  secure: true
+}
+
 describe('CookieStorage', () => {
   afterEach(() => {
     vi.resetAllMocks()
@@ -20,7 +28,7 @@ describe('CookieStorage', () => {
     const storage = new CookieStorage()
 
     await storage.setItem('test', 'test')
-    expect(jscookie).toHaveBeenCalledWith('test', 'test')
+    expect(jscookie).toHaveBeenCalledWith('test', 'test', defaultAttributes)
   })
 
   it('should call js-cookie remove when removeItem is called', async () => {
